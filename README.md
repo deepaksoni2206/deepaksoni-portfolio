@@ -25,7 +25,7 @@ The portfolio content highlights Python, Django, Django REST Framework, Django C
 
 ```text
 deepaksoni-portfolio/
-├── one.html       # Main portfolio page
+├── index.html     # Main portfolio page
 ├── portfolio.css  # Layout, responsive styles, themes, and animations
 ├── script.js      # Menu, theme, scroll, and interactive behavior
 └── README.md      # Project documentation
@@ -42,7 +42,7 @@ No build tools or dependencies are required.
 	cd deepaksoni-portfolio
 	```
 
-2. Open `one.html` directly in a browser.
+2. Open `index.html` directly in a browser.
 
 For a local development server, run one of these commands from the project folder:
 
@@ -58,7 +58,7 @@ Then visit `http://localhost:8000` or the URL shown by the server.
 
 ## Customization
 
-- Edit text, links, and section content in `one.html`.
+- Edit text, links, and section content in `index.html`.
 - Update colors, spacing, themes, and responsive rules in `portfolio.css`.
 - Update menu, theme, and animation behavior in `script.js`.
 - Replace placeholder social and project URLs with the final links before deployment.

@@ -5,7 +5,7 @@ Personal portfolio website for Deepak Soni, a Python and Django backend develope
 ## Features
 
 - Responsive navigation with a mobile menu
-- Light and dark theme toggle
+- Dark portfolio theme with responsive styling
 - Hero, About, Skills, Experience, Projects, and Contact sections
 - Scroll reveal animations
 - Project links and social/contact call-to-actions
@@ -26,8 +26,8 @@ The portfolio content highlights Python, Django, Django REST Framework, Django C
 ```text
 deepaksoni-portfolio/
 ├── index.html     # Main portfolio page
-├── portfolio.css  # Layout, responsive styles, themes, and animations
-├── script.js      # Menu, theme, scroll, and interactive behavior
+├── portfolio.css  # Layout, responsive styles, and animations
+├── script.js      # Menu, scroll, and interactive behavior
 └── README.md      # Project documentation
 ```
 
@@ -59,8 +59,8 @@ Then visit `http://localhost:8000` or the URL shown by the server.
 ## Customization
 
 - Edit text, links, and section content in `index.html`.
-- Update colors, spacing, themes, and responsive rules in `portfolio.css`.
-- Update menu, theme, and animation behavior in `script.js`.
+- Update colors, spacing, and responsive rules in `portfolio.css`.
+- Update menu and animation behavior in `script.js`.
 - Replace placeholder social and project URLs with the final links before deployment.
 
 ## License

@@ -74,30 +74,6 @@ button {
 
 
 /* =====================================================
-   LIGHT MODE
-===================================================== */
-
-body.light {
-
-    --bg: #f7f7f5;
-
-    --bg-soft: #ededeb;
-
-    --card: #ffffff;
-
-    --text: #111111;
-
-    --muted: #707070;
-
-    --muted-light: #4d4d4d;
-
-    --line: #dededb;
-
-    --line-light: #ccccca;
-}
-
-
-/* =====================================================
    GLOBAL
 ===================================================== */
 
@@ -169,13 +145,6 @@ body.light {
 
     border-bottom:
         1px solid var(--line);
-}
-
-
-body.light .navbar {
-
-    background:
-        rgba(247,247,245,0.9);
 }
 
 
@@ -271,7 +240,6 @@ body.light .navbar {
 }
 
 
-.theme-button,
 .menu-button {
 
     width: 36px;
@@ -297,7 +265,6 @@ body.light .navbar {
 }
 
 
-.theme-button:hover,
 .menu-button:hover {
 
     border-color: var(--accent);
